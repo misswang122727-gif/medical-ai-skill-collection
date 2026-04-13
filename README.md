@@ -27,3 +27,20 @@ All skill files are stored in the `Skill/` directory (**no README inside the fol
 ```bash
 git clone https://github.com/misswang122727-gif/medical-ai-skill-collection.git
 cd medical-ai-skill-collection
+
+---
+
+## 📁 Skill Directory
+| Skill File Name | Core Function | Applicable Scenario |
+|-----------------|---------------|---------------------|
+| `xpert-medical-evaluation.skill` | Xpert 医疗基准0-1搭建标准 | 医疗大模型评测体系建设 |
+| `xpert-question-process.skill` | 出题-质检-验收全流程规范 | 专家级大模型评测流程标准化 |
+| `hle-general-evaluation.skill` | HLE 通用能力评测框架 | 大模型综合能力评估 |
+
+---
+
+## 🚀 Quick Start
+### 1. Clone the Repository
+```bash
+git clone https://github.com/misswang122727-gif/medical-ai-skill-collection.git
+cd medical-ai-skill-collection

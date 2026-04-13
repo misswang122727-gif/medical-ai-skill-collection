@@ -16,34 +16,13 @@ All skill files are stored in the `Skill/` directory (**no README inside the fol
 ## 📁 Skill Directory
 | Skill File Name | Core Function | Applicable Scenario |
 |-----------------|---------------|---------------------|
-| `xpert-medical-evaluation.skill` | Xpert medical benchmark 0-to-1 construction standard | Medical AI large model evaluation system building |
-| `xpert-question-process.skill` | Question creation, quality inspection, acceptance workflow | Expert-level LLM evaluation process standardization |
-| `hle-general-evaluation.skill` | HLE general capability assessment framework | General LLM comprehensive capability evaluation |
+| `Health_Program_Expert_v2.skill` | Health program & medical AI evaluation expert workflow | 0-to-1 construction of medical LLM evaluation system, clinical scenario coverage, end-to-end process standardization |
 
 ---
 
-## 🚀 Quick Start
-### 1. Clone the Repository
-```bash
-git clone https://github.com/misswang122727-gif/medical-ai-skill-collection.git
-cd medical-ai-skill-collection
-
----
-
-## 📁 Skill Directory
-| Skill File Name | Core Function | Applicable Scenario |
-|-----------------|---------------|---------------------|
-| `xpert-medical-evaluation.skill` | Xpert 医疗基准0-1搭建标准 | 医疗大模型评测体系建设 |
-| `xpert-question-process.skill` | 出题-质检-验收全流程规范 | 专家级大模型评测流程标准化 |
-| `hle-general-evaluation.skill` | HLE 通用能力评测框架 | 大模型综合能力评估 |
-
----
-
-## 🚀 Quick Start
-### 1. Clone the Repository
-```bash
-git clone https://github.com/misswang122727-gif/medical-ai-skill-collection.git
-cd medical-ai-skill-collection
-
-## 🚀 Quick Start
+## 🔧 Installation Guide
+### 1. Download the Skill
+- Clone the repository:
+  ```bash
+  git clone https://github.com/misswang122727-gif/medical-ai-skill-collection.git
 

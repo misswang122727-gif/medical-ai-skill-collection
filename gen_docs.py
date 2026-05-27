@@ -116,7 +116,7 @@ def md_to_docx(md_text, out_path, title):
     doc.save(out_path)
     print(f"✓ 已生成: {out_path}")
 
-base = "/home/user/medical-ai-skill-collection"
+base = os.path.dirname(os.path.abspath(__file__))
 
 files = {
     "PRD_墨甲机器人语音交互系统.docx": "PRD_人形机器人语音交互系统.md",

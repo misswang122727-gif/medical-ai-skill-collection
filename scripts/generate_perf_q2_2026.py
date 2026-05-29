@@ -134,6 +134,7 @@ def main():
         "文档状态以源文件为准：PRD/SOR 元信息为「草稿」；评审报告结论为「可作发包基线」但需与内部评审纪要一致。",
         "「实际完成」「完成率」「自评分」留空，由您与上级按真实进展填写。",
         "证据文件路径均相对于本仓库根目录。",
+        "说明：仓库 skill/*.md 里出现的「需求撰写专家」仅为 Cursor Agent 的技能显示名（YAML name 字段），不是岗位、不是 Q2 正式交付物，绩效考核勿写。",
     ]
     ws0["A1"] = "2026年Q2绩效考核模板（务实版）"
     ws0["A1"].font = Font(size=14, bold=True)
@@ -190,12 +191,12 @@ def main():
         ),
         (
             "墨甲语音链路基线文档",
-            "25%",
-            "PRD v1.0 + SOR v1.2 + 评审报告；七大模块指标可验收表述",
+            "30%",
+            "PRD v1.0 + SOR v1.2；七大模块指标可验收表述；配套 docx 导出",
             "",
             "",
             "",
-            "PRD_人形机器人语音交互系统.md；skill/Voice_AI_Signal_Expert_SOR.md；SOR_Review_Report_墨甲v2.md",
+            "PRD_人形机器人语音交互系统.md；skill/Voice_AI_Signal_Expert_SOR.md；gen_docs.py → *.docx",
         ),
         (
             "SOR 评审与修订闭环",
@@ -208,21 +209,12 @@ def main():
         ),
         (
             "供应商技术对标（发包输入）",
-            "15%",
+            "20%",
             "输出供应商矩阵与 POC 建议（4 家候选为文档建议，非已开标结果）",
             "",
             "",
             "",
             "Vendor_Comparison_墨甲v2.md（12 家画像 + 模块评分）",
-        ),
-        (
-            "方法论与导出工具",
-            "10%",
-            "Skill/SOR 撰写规范；gen_docs 导出 docx",
-            "",
-            "",
-            "",
-            "skill/*.md；gen_docs.py；*.docx",
         ),
     ]
     for row_data in kpi_rows:
@@ -284,6 +276,14 @@ def main():
             "可批量 md→docx",
             "gen_docs.py",
             "已生成多份 docx 于仓库根目录",
+        ),
+        (
+            7,
+            "（非交付）Cursor Skill 配置",
+            "Agent 用 prompt 模板",
+            "skill/Voice_AI_Signal_Expert_SKILL.md 的 name 含「需求撰写专家」字样",
+            "skill/*.md",
+            "仅供 AI 写稿触发，不计入岗位与绩效产出",
         ),
     ]
     for d in deliverables:

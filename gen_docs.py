@@ -123,6 +123,7 @@ files = {
     "Voice_AI_Skill_墨甲机器人.docx": "skill/Voice_AI_Signal_Expert_SKILL.md",
     "Voice_AI_SOR_墨甲机器人.docx": "skill/Voice_AI_Signal_Expert_SOR.md",
     "SOR_墨宝机器人_纯声学链路_v1.0.docx": "SOR_墨宝机器人_纯声学链路_v1.0.md",
+    "SOR_墨穹机器人_多模态链路_v1.0.docx": "SOR_墨穹机器人_多模态链路_v1.0.md",
 }
 
 for out_name, src_name in files.items():
